@@ -52,7 +52,7 @@ bun run render --samples auto --shutter 0.2       # 1920x1080 60fps，自适应�
 ## 致谢
 
 - **原作：** [mexicat/pdoom-video](https://github.com/mexicat/pdoom-video)，Giacomo Magnanini 为 "I'm Upping My P(doom)" 做的代码渲染 MV（[YouTube](https://www.youtube.com/watch?v=5EoO5413dBY)）。本项目的渲染器架构（按歌曲时间确定性渲染、后期管线、headless Chrome 逐帧导出）、大部分引擎代码和歌词对齐 / 音频分析流程都改编自它，MIT 许可。改编过的文件在文件头注明，清单和原许可证全文见 [`LICENSE-THIRD-PARTY.md`](LICENSE-THIRD-PARTY.md)。原作的节拍拆解见 [`docs/REFERENCE.md`](docs/REFERENCE.md)。
-- **原作的歌：** "I'm Upping My P(doom)"，歌词由 osmarks 等人创作，原作使用的版本由 deckard 用 Suno 制作。本仓库不包含这首歌，详见原仓库的 Credits。
+- **原作的歌：** "I'm Upping My P(doom)"，歌词由 osmarks 等人创作，原作使用的是 deckard 发布的 Suno 版本。本仓库不包含这首歌，详见原仓库的 Credits。
 - **本片的歌：** "Context Window"，用 Suno 生成，提示词和歌词见 [`docs/SUNO.md`](docs/SUNO.md)。
 - **字体：** Unbounded、IBM Plex Mono、Cormorant Garamond，均为 SIL Open Font License，许可证随字体放在 `app/public/fonts/`。
 
