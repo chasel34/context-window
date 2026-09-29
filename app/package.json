@@ -1,0 +1,26 @@
+{
+  "name": "context-window",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.scripts.json",
+    "render": "bun scripts/render.ts video",
+    "stills": "bun scripts/render.ts stills",
+    "sheet": "bun scripts/render.ts sheet"
+  },
+  "dependencies": {
+    "opentype.js": "^2.0.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "@types/opentype.js": "^1.3.10",
+    "@types/three": "^0.186.0",
+    "playwright-core": "^1.63.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  }
+}

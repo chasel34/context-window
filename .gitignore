@@ -1,0 +1,18 @@
+.DS_Store
+node_modules/
+dist/
+out/
+
+# local only: third-party reference video/frames and the upstream checkout
+reference/
+source-repo/
+
+# large audio: only the preview mp3 is tracked
+song/*.wav
+song/stems/
+
+# analysis intermediates
+analysis/.venv/
+analysis/work/
+__pycache__/
+analysis/qa/

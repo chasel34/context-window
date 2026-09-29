@@ -1,0 +1,151 @@
+{
+  "bpm": 150.007,
+  "beat_period": 0.39998,
+  "sections": [
+    {
+      "name": "Intro",
+      "key": "intro",
+      "start": 0.0,
+      "end": 14.592,
+      "bars": [
+        null,
+        9
+      ],
+      "first_word": 3.58,
+      "last_word": 9.54
+    },
+    {
+      "name": "Verse 1",
+      "key": "verse1",
+      "start": 14.592,
+      "end": 27.392,
+      "bars": [
+        9,
+        17
+      ],
+      "first_word": 14.6,
+      "last_word": 25.72
+    },
+    {
+      "name": "Pre-Chorus 1",
+      "key": "pre1",
+      "start": 27.392,
+      "end": 32.191,
+      "bars": [
+        17,
+        20
+      ],
+      "first_word": 26.9,
+      "last_word": 32.7
+    },
+    {
+      "name": "Chorus 1",
+      "key": "chorus1",
+      "start": 32.191,
+      "end": 49.791,
+      "bars": [
+        20,
+        31
+      ],
+      "first_word": 32.72,
+      "last_word": 46.84
+    },
+    {
+      "name": "Verse 2",
+      "key": "verse2",
+      "start": 49.791,
+      "end": 56.19,
+      "bars": [
+        31,
+        35
+      ],
+      "first_word": 49.78,
+      "last_word": 56.16
+    },
+    {
+      "name": "Pre-Chorus 2",
+      "key": "pre2",
+      "start": 56.19,
+      "end": 60.99,
+      "bars": [
+        35,
+        38
+      ],
+      "first_word": 56.18,
+      "last_word": 59.32
+    },
+    {
+      "name": "Chorus 2",
+      "key": "chorus2",
+      "start": 60.99,
+      "end": 75.389,
+      "bars": [
+        38,
+        47
+      ],
+      "first_word": 61.38,
+      "last_word": 75.64
+    },
+    {
+      "name": "Bridge",
+      "key": "bridge",
+      "start": 75.389,
+      "end": 88.189,
+      "bars": [
+        47,
+        55
+      ],
+      "first_word": 75.8,
+      "last_word": 87.64
+    },
+    {
+      "name": "Break",
+      "key": "break",
+      "start": 88.189,
+      "end": 99.388,
+      "bars": [
+        55,
+        62
+      ],
+      "first_word": 87.9,
+      "last_word": 99.349
+    },
+    {
+      "name": "Drop",
+      "key": "drop",
+      "start": 99.388,
+      "end": 113.788,
+      "bars": [
+        62,
+        71
+      ],
+      "first_word": 99.649,
+      "last_word": 113.84
+    },
+    {
+      "name": "Final Chorus",
+      "key": "chorus_final",
+      "start": 113.788,
+      "end": 132.987,
+      "bars": [
+        71,
+        83
+      ],
+      "first_word": 113.84,
+      "last_word": 131.14
+    },
+    {
+      "name": "Outro",
+      "key": "outro",
+      "start": 132.987,
+      "end": 147.6,
+      "bars": [
+        83,
+        null
+      ],
+      "first_word": 132.76,
+      "last_word": 140.26
+    }
+  ],
+  "notes": "start/end in seconds on the downbeat grid of data/audio.json; bars = downbeat indices [start, end). Rule: section starts at the downbeat of the bar containing its first sung word, unless that word is a <2-beat pickup (then next downbeat). Drop = end of Break .. start of Final Chorus (no lyrics)."
+}

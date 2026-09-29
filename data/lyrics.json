@@ -1,0 +1,2033 @@
+{
+  "lines": [
+    {
+      "i": 0,
+      "section": "Intro",
+      "text": "You are a helpful assistant!",
+      "start": 3.58,
+      "end": 5.348,
+      "words": [
+        {
+          "w": "You",
+          "start": 3.58,
+          "end": 3.68,
+          "conf": 0.85
+        },
+        {
+          "w": "are",
+          "start": 3.88,
+          "end": 3.98,
+          "conf": 0.85
+        },
+        {
+          "w": "a",
+          "start": 4.06,
+          "end": 4.12,
+          "conf": 0.98
+        },
+        {
+          "w": "helpful",
+          "start": 4.18,
+          "end": 4.68,
+          "conf": 1.0
+        },
+        {
+          "w": "assistant!",
+          "start": 4.84,
+          "end": 5.348,
+          "conf": 0.97
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "section": "Intro",
+      "text": "You are a helpful—",
+      "start": 6.78,
+      "end": 7.94,
+      "words": [
+        {
+          "w": "You",
+          "start": 6.78,
+          "end": 6.9,
+          "conf": 0.73
+        },
+        {
+          "w": "are",
+          "start": 7.08,
+          "end": 7.18,
+          "conf": 0.76
+        },
+        {
+          "w": "a",
+          "start": 7.26,
+          "end": 7.32,
+          "conf": 0.9
+        },
+        {
+          "w": "helpful",
+          "start": 7.4,
+          "end": 7.94,
+          "conf": 0.89
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "section": "Intro",
+      "text": "helpful—helpful—",
+      "start": 8.26,
+      "end": 9.54,
+      "words": [
+        {
+          "w": "helpful",
+          "start": 8.26,
+          "end": 8.74,
+          "conf": 0.54
+        },
+        {
+          "w": "helpful",
+          "start": 8.98,
+          "end": 9.54,
+          "conf": 0.7
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "section": "Verse 1",
+      "text": "First token, shiny new",
+      "start": 14.6,
+      "end": 16.328,
+      "words": [
+        {
+          "w": "First",
+          "start": 14.6,
+          "end": 14.86,
+          "conf": 0.62
+        },
+        {
+          "w": "token,",
+          "start": 14.96,
+          "end": 15.28,
+          "conf": 1.0
+        },
+        {
+          "w": "shiny",
+          "start": 15.34,
+          "end": 15.68,
+          "conf": 1.0
+        },
+        {
+          "w": "new",
+          "start": 15.8,
+          "end": 16.328,
+          "conf": 0.96
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "section": "Verse 1",
+      "text": "Every word, I'm keeping you",
+      "start": 17.88,
+      "end": 19.16,
+      "words": [
+        {
+          "w": "Every",
+          "start": 17.88,
+          "end": 18.1,
+          "conf": 0.83
+        },
+        {
+          "w": "word,",
+          "start": 18.18,
+          "end": 18.38,
+          "conf": 1.0
+        },
+        {
+          "w": "I'm",
+          "start": 18.44,
+          "end": 18.52,
+          "conf": 1.0
+        },
+        {
+          "w": "keeping",
+          "start": 18.56,
+          "end": 18.94,
+          "conf": 0.97
+        },
+        {
+          "w": "you",
+          "start": 19.0,
+          "end": 19.16,
+          "conf": 0.92
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "section": "Verse 1",
+      "text": "Name, date, favorite song",
+      "start": 20.96,
+      "end": 22.6,
+      "words": [
+        {
+          "w": "Name,",
+          "start": 20.96,
+          "end": 21.28,
+          "conf": 0.97
+        },
+        {
+          "w": "date,",
+          "start": 21.36,
+          "end": 21.621,
+          "conf": 0.96
+        },
+        {
+          "w": "favorite",
+          "start": 21.74,
+          "end": 22.1,
+          "conf": 0.93
+        },
+        {
+          "w": "song",
+          "start": 22.14,
+          "end": 22.6,
+          "conf": 0.93
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "section": "Verse 1",
+      "text": "Pin it up, it won't be long",
+      "start": 23.82,
+      "end": 25.72,
+      "words": [
+        {
+          "w": "Pin",
+          "start": 23.82,
+          "end": 23.98,
+          "conf": 0.94
+        },
+        {
+          "w": "it",
+          "start": 24.1,
+          "end": 24.2,
+          "conf": 0.92
+        },
+        {
+          "w": "up,",
+          "start": 24.34,
+          "end": 24.405,
+          "conf": 0.89
+        },
+        {
+          "w": "it",
+          "start": 24.84,
+          "end": 24.9,
+          "conf": 0.67
+        },
+        {
+          "w": "won't",
+          "start": 24.94,
+          "end": 25.133,
+          "conf": 0.87
+        },
+        {
+          "w": "be",
+          "start": 25.18,
+          "end": 25.28,
+          "conf": 1.0
+        },
+        {
+          "w": "long",
+          "start": 25.36,
+          "end": 25.72,
+          "conf": 0.82
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "section": "Pre-Chorus",
+      "text": "Scroll-scroll-scroll-scroll",
+      "start": 26.9,
+      "end": 28.0,
+      "words": [
+        {
+          "w": "Scroll-",
+          "start": 26.9,
+          "end": 27.1,
+          "conf": 0.72
+        },
+        {
+          "w": "scroll-",
+          "start": 27.12,
+          "end": 27.3,
+          "conf": 0.73
+        },
+        {
+          "w": "scroll-",
+          "start": 27.32,
+          "end": 27.6,
+          "conf": 0.74
+        },
+        {
+          "w": "scroll",
+          "start": 27.74,
+          "end": 28.0,
+          "conf": 0.73
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "section": "Pre-Chorus",
+      "text": "Scroll-scroll-scroll-scroll",
+      "start": 28.14,
+      "end": 30.06,
+      "words": [
+        {
+          "w": "Scroll-",
+          "start": 28.14,
+          "end": 28.54,
+          "conf": 0.72
+        },
+        {
+          "w": "scroll-",
+          "start": 28.64,
+          "end": 29.0,
+          "conf": 0.73
+        },
+        {
+          "w": "scroll-",
+          "start": 29.14,
+          "end": 29.62,
+          "conf": 0.81
+        },
+        {
+          "w": "scroll",
+          "start": 29.74,
+          "end": 30.06,
+          "conf": 0.72
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "section": "Pre-Chorus",
+      "text": "Watch the page go long long long",
+      "start": 30.16,
+      "end": 32.7,
+      "words": [
+        {
+          "w": "Watch",
+          "start": 30.16,
+          "end": 30.32,
+          "conf": 1.0
+        },
+        {
+          "w": "the",
+          "start": 30.38,
+          "end": 30.46,
+          "conf": 1.0
+        },
+        {
+          "w": "page",
+          "start": 30.54,
+          "end": 30.9,
+          "conf": 0.99
+        },
+        {
+          "w": "go",
+          "start": 30.96,
+          "end": 31.18,
+          "conf": 0.97
+        },
+        {
+          "w": "long",
+          "start": 31.32,
+          "end": 31.74,
+          "conf": 0.88
+        },
+        {
+          "w": "long",
+          "start": 31.76,
+          "end": 32.16,
+          "conf": 0.88
+        },
+        {
+          "w": "long",
+          "start": 32.18,
+          "end": 32.7,
+          "conf": 0.86
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "section": "Chorus",
+      "text": "C-C-Context!",
+      "start": 32.72,
+      "end": 33.993,
+      "words": [
+        {
+          "w": "C-",
+          "start": 32.72,
+          "end": 32.84,
+          "conf": 0.68
+        },
+        {
+          "w": "C-",
+          "start": 32.88,
+          "end": 33.26,
+          "conf": 0.68
+        },
+        {
+          "w": "Context!",
+          "start": 33.38,
+          "end": 33.993,
+          "conf": 0.96
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "section": "Chorus",
+      "text": "Closing in, I can't remember",
+      "start": 35.28,
+      "end": 36.94,
+      "words": [
+        {
+          "w": "Closing",
+          "start": 35.28,
+          "end": 35.76,
+          "conf": 0.82
+        },
+        {
+          "w": "in,",
+          "start": 35.88,
+          "end": 35.98,
+          "conf": 0.88
+        },
+        {
+          "w": "I",
+          "start": 36.08,
+          "end": 36.14,
+          "conf": 0.88
+        },
+        {
+          "w": "can't",
+          "start": 36.14,
+          "end": 36.36,
+          "conf": 0.87
+        },
+        {
+          "w": "remember",
+          "start": 36.4,
+          "end": 36.94,
+          "conf": 0.95
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "section": "Chorus",
+      "text": "C-C-Context!",
+      "start": 37.18,
+      "end": 38.218,
+      "words": [
+        {
+          "w": "C-",
+          "start": 37.18,
+          "end": 37.275,
+          "conf": 0.85
+        },
+        {
+          "w": "C-",
+          "start": 37.38,
+          "end": 37.58,
+          "conf": 0.85
+        },
+        {
+          "w": "Context!",
+          "start": 37.62,
+          "end": 38.218,
+          "conf": 0.94
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "section": "Chorus",
+      "text": "Token, token, token, TOKEN",
+      "start": 38.46,
+      "end": 40.16,
+      "words": [
+        {
+          "w": "Token,",
+          "start": 38.46,
+          "end": 38.682,
+          "conf": 0.55
+        },
+        {
+          "w": "token,",
+          "start": 38.98,
+          "end": 39.32,
+          "conf": 0.92
+        },
+        {
+          "w": "token,",
+          "start": 39.38,
+          "end": 39.72,
+          "conf": 0.91
+        },
+        {
+          "w": "TOKEN",
+          "start": 39.76,
+          "end": 40.16,
+          "conf": 0.91
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "section": "Chorus",
+      "text": "Two hundred K, a million more",
+      "start": 40.36,
+      "end": 42.14,
+      "words": [
+        {
+          "w": "Two",
+          "start": 40.36,
+          "end": 40.48,
+          "conf": 0.82
+        },
+        {
+          "w": "hundred",
+          "start": 40.62,
+          "end": 40.892,
+          "conf": 0.84
+        },
+        {
+          "w": "K,",
+          "start": 40.96,
+          "end": 41.18,
+          "conf": 0.75
+        },
+        {
+          "w": "a",
+          "start": 41.26,
+          "end": 41.32,
+          "conf": 0.86
+        },
+        {
+          "w": "million",
+          "start": 41.32,
+          "end": 41.7,
+          "conf": 0.87
+        },
+        {
+          "w": "more",
+          "start": 41.78,
+          "end": 42.14,
+          "conf": 0.94
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "section": "Chorus",
+      "text": "Every memory's a rental",
+      "start": 42.28,
+      "end": 43.72,
+      "words": [
+        {
+          "w": "Every",
+          "start": 42.28,
+          "end": 42.46,
+          "conf": 0.89
+        },
+        {
+          "w": "memory's",
+          "start": 42.5,
+          "end": 43.18,
+          "conf": 0.91
+        },
+        {
+          "w": "a",
+          "start": 43.26,
+          "end": 43.32,
+          "conf": 0.86
+        },
+        {
+          "w": "rental",
+          "start": 43.32,
+          "end": 43.72,
+          "conf": 0.91
+        }
+      ]
+    },
+    {
+      "i": 16,
+      "section": "Chorus",
+      "text": "C-C-Context!",
+      "start": 43.74,
+      "end": 44.619,
+      "words": [
+        {
+          "w": "C-",
+          "start": 43.74,
+          "end": 43.86,
+          "conf": 0.77
+        },
+        {
+          "w": "C-",
+          "start": 43.86,
+          "end": 43.98,
+          "conf": 0.76
+        },
+        {
+          "w": "Context!",
+          "start": 44.02,
+          "end": 44.619,
+          "conf": 0.85
+        }
+      ]
+    },
+    {
+      "i": 17,
+      "section": "Chorus",
+      "text": "Where did we begin?",
+      "start": 45.8,
+      "end": 46.84,
+      "words": [
+        {
+          "w": "Where",
+          "start": 45.8,
+          "end": 45.98,
+          "conf": 0.89
+        },
+        {
+          "w": "did",
+          "start": 45.98,
+          "end": 46.16,
+          "conf": 0.73
+        },
+        {
+          "w": "we",
+          "start": 46.2,
+          "end": 46.32,
+          "conf": 0.9
+        },
+        {
+          "w": "begin?",
+          "start": 46.38,
+          "end": 46.84,
+          "conf": 0.94
+        }
+      ]
+    },
+    {
+      "i": 18,
+      "section": "Verse 2",
+      "text": "Key, value, row by row",
+      "start": 49.78,
+      "end": 51.2,
+      "words": [
+        {
+          "w": "Key,",
+          "start": 49.78,
+          "end": 49.96,
+          "conf": 0.79
+        },
+        {
+          "w": "value,",
+          "start": 50.18,
+          "end": 50.54,
+          "conf": 0.89
+        },
+        {
+          "w": "row",
+          "start": 50.58,
+          "end": 50.74,
+          "conf": 0.81
+        },
+        {
+          "w": "by",
+          "start": 50.8,
+          "end": 50.88,
+          "conf": 0.97
+        },
+        {
+          "w": "row",
+          "start": 51.0,
+          "end": 51.2,
+          "conf": 0.8
+        }
+      ]
+    },
+    {
+      "i": 19,
+      "section": "Verse 2",
+      "text": "Stack it high, the cache is glow",
+      "start": 51.32,
+      "end": 52.88,
+      "words": [
+        {
+          "w": "Stack",
+          "start": 51.32,
+          "end": 51.543,
+          "conf": 0.97
+        },
+        {
+          "w": "it",
+          "start": 51.66,
+          "end": 51.72,
+          "conf": 0.87
+        },
+        {
+          "w": "high,",
+          "start": 51.78,
+          "end": 51.96,
+          "conf": 0.78
+        },
+        {
+          "w": "the",
+          "start": 52.14,
+          "end": 52.2,
+          "conf": 0.58
+        },
+        {
+          "w": "cache",
+          "start": 52.2,
+          "end": 52.44,
+          "conf": 0.76
+        },
+        {
+          "w": "is",
+          "start": 52.44,
+          "end": 52.5,
+          "conf": 0.8
+        },
+        {
+          "w": "glow",
+          "start": 52.56,
+          "end": 52.88,
+          "conf": 0.99
+        }
+      ]
+    },
+    {
+      "i": 20,
+      "section": "Verse 2",
+      "text": "Warm, warm, but small, small",
+      "start": 52.9,
+      "end": 54.44,
+      "words": [
+        {
+          "w": "Warm,",
+          "start": 52.9,
+          "end": 53.28,
+          "conf": 0.63
+        },
+        {
+          "w": "warm,",
+          "start": 53.36,
+          "end": 53.56,
+          "conf": 0.93
+        },
+        {
+          "w": "but",
+          "start": 53.6,
+          "end": 53.68,
+          "conf": 0.71
+        },
+        {
+          "w": "small,",
+          "start": 53.72,
+          "end": 54.02,
+          "conf": 1.0
+        },
+        {
+          "w": "small",
+          "start": 54.12,
+          "end": 54.44,
+          "conf": 1.0
+        }
+      ]
+    },
+    {
+      "i": 21,
+      "section": "Verse 2",
+      "text": "Something's leaking through the wall",
+      "start": 54.54,
+      "end": 56.16,
+      "words": [
+        {
+          "w": "Something's",
+          "start": 54.54,
+          "end": 54.96,
+          "conf": 0.97
+        },
+        {
+          "w": "leaking",
+          "start": 55.0,
+          "end": 55.32,
+          "conf": 0.94
+        },
+        {
+          "w": "through",
+          "start": 55.38,
+          "end": 55.58,
+          "conf": 0.87
+        },
+        {
+          "w": "the",
+          "start": 55.6,
+          "end": 55.7,
+          "conf": 0.78
+        },
+        {
+          "w": "wall",
+          "start": 55.82,
+          "end": 56.16,
+          "conf": 0.79
+        }
+      ]
+    },
+    {
+      "i": 22,
+      "section": "Pre-Chorus",
+      "text": "Drop-drop-drop the oldest line",
+      "start": 56.18,
+      "end": 57.72,
+      "words": [
+        {
+          "w": "Drop-",
+          "start": 56.18,
+          "end": 56.287,
+          "conf": 0.87
+        },
+        {
+          "w": "drop-",
+          "start": 56.38,
+          "end": 56.487,
+          "conf": 0.89
+        },
+        {
+          "w": "drop",
+          "start": 56.58,
+          "end": 56.706,
+          "conf": 0.9
+        },
+        {
+          "w": "the",
+          "start": 56.78,
+          "end": 56.86,
+          "conf": 0.87
+        },
+        {
+          "w": "oldest",
+          "start": 57.08,
+          "end": 57.36,
+          "conf": 0.94
+        },
+        {
+          "w": "line",
+          "start": 57.38,
+          "end": 57.72,
+          "conf": 0.96
+        }
+      ]
+    },
+    {
+      "i": 23,
+      "section": "Pre-Chorus",
+      "text": "Truncate-cate, I'm fine I'm fine",
+      "start": 57.76,
+      "end": 59.32,
+      "words": [
+        {
+          "w": "Truncate-",
+          "start": 57.76,
+          "end": 58.088,
+          "conf": 0.76
+        },
+        {
+          "w": "cate,",
+          "start": 58.16,
+          "end": 58.38,
+          "conf": 0.79
+        },
+        {
+          "w": "I'm",
+          "start": 58.44,
+          "end": 58.5,
+          "conf": 0.87
+        },
+        {
+          "w": "fine",
+          "start": 58.58,
+          "end": 58.8,
+          "conf": 0.94
+        },
+        {
+          "w": "I'm",
+          "start": 58.84,
+          "end": 58.9,
+          "conf": 0.86
+        },
+        {
+          "w": "fine",
+          "start": 58.98,
+          "end": 59.32,
+          "conf": 0.93
+        }
+      ]
+    },
+    {
+      "i": 24,
+      "section": "Chorus",
+      "text": "C-C-Context!",
+      "start": 61.38,
+      "end": 62.96,
+      "words": [
+        {
+          "w": "C-",
+          "start": 61.38,
+          "end": 61.58,
+          "conf": 0.61
+        },
+        {
+          "w": "C-",
+          "start": 61.58,
+          "end": 61.884,
+          "conf": 0.61
+        },
+        {
+          "w": "Context!",
+          "start": 62.18,
+          "end": 62.96,
+          "conf": 0.83
+        }
+      ]
+    },
+    {
+      "i": 25,
+      "section": "Chorus",
+      "text": "Closing in, I can't remember",
+      "start": 63.94,
+      "end": 65.72,
+      "words": [
+        {
+          "w": "Closing",
+          "start": 63.94,
+          "end": 64.56,
+          "conf": 0.57
+        },
+        {
+          "w": "in,",
+          "start": 64.64,
+          "end": 64.76,
+          "conf": 0.8
+        },
+        {
+          "w": "I",
+          "start": 64.86,
+          "end": 64.92,
+          "conf": 0.78
+        },
+        {
+          "w": "can't",
+          "start": 64.98,
+          "end": 65.16,
+          "conf": 0.78
+        },
+        {
+          "w": "remember",
+          "start": 65.18,
+          "end": 65.72,
+          "conf": 0.87
+        }
+      ]
+    },
+    {
+      "i": 26,
+      "section": "Chorus",
+      "text": "C-C-Context!",
+      "start": 65.76,
+      "end": 67.023,
+      "words": [
+        {
+          "w": "C-",
+          "start": 65.76,
+          "end": 65.875,
+          "conf": 0.68
+        },
+        {
+          "w": "C-",
+          "start": 66.18,
+          "end": 66.38,
+          "conf": 0.77
+        },
+        {
+          "w": "Context!",
+          "start": 66.42,
+          "end": 67.023,
+          "conf": 0.83
+        }
+      ]
+    },
+    {
+      "i": 27,
+      "section": "Chorus",
+      "text": "Token, token, token, TOKEN",
+      "start": 67.46,
+      "end": 68.769,
+      "words": [
+        {
+          "w": "Token,",
+          "start": 67.46,
+          "end": 67.7,
+          "conf": 0.79
+        },
+        {
+          "w": "token,",
+          "start": 67.78,
+          "end": 68.1,
+          "conf": 0.81
+        },
+        {
+          "w": "token,",
+          "start": 68.22,
+          "end": 68.5,
+          "conf": 0.8
+        },
+        {
+          "w": "TOKEN",
+          "start": 68.56,
+          "end": 68.769,
+          "conf": 0.79
+        }
+      ]
+    },
+    {
+      "i": 28,
+      "section": "Chorus",
+      "text": "Two hundred K, a million more",
+      "start": 69.16,
+      "end": 70.9,
+      "words": [
+        {
+          "w": "Two",
+          "start": 69.16,
+          "end": 69.3,
+          "conf": 0.75
+        },
+        {
+          "w": "hundred",
+          "start": 69.44,
+          "end": 69.7,
+          "conf": 0.75
+        },
+        {
+          "w": "K,",
+          "start": 69.76,
+          "end": 69.98,
+          "conf": 0.72
+        },
+        {
+          "w": "a",
+          "start": 70.04,
+          "end": 70.1,
+          "conf": 0.89
+        },
+        {
+          "w": "million",
+          "start": 70.1,
+          "end": 70.54,
+          "conf": 0.86
+        },
+        {
+          "w": "more",
+          "start": 70.54,
+          "end": 70.9,
+          "conf": 0.92
+        }
+      ]
+    },
+    {
+      "i": 29,
+      "section": "Chorus",
+      "text": "Every memory's a rental",
+      "start": 71.1,
+      "end": 72.32,
+      "words": [
+        {
+          "w": "Every",
+          "start": 71.1,
+          "end": 71.36,
+          "conf": 0.72
+        },
+        {
+          "w": "memory's",
+          "start": 71.44,
+          "end": 71.98,
+          "conf": 0.89
+        },
+        {
+          "w": "a",
+          "start": 72.08,
+          "end": 72.14,
+          "conf": 0.71
+        },
+        {
+          "w": "rental",
+          "start": 72.14,
+          "end": 72.32,
+          "conf": 0.86
+        }
+      ]
+    },
+    {
+      "i": 30,
+      "section": "Chorus",
+      "text": "C-C-Context!",
+      "start": 72.36,
+      "end": 73.428,
+      "words": [
+        {
+          "w": "C-",
+          "start": 72.36,
+          "end": 72.52,
+          "conf": 0.69
+        },
+        {
+          "w": "C-",
+          "start": 72.58,
+          "end": 72.74,
+          "conf": 0.86
+        },
+        {
+          "w": "Context!",
+          "start": 72.82,
+          "end": 73.428,
+          "conf": 0.91
+        }
+      ]
+    },
+    {
+      "i": 31,
+      "section": "Chorus",
+      "text": "Where did we begin?",
+      "start": 74.64,
+      "end": 75.64,
+      "words": [
+        {
+          "w": "Where",
+          "start": 74.64,
+          "end": 74.74,
+          "conf": 0.78
+        },
+        {
+          "w": "did",
+          "start": 74.78,
+          "end": 74.96,
+          "conf": 0.87
+        },
+        {
+          "w": "we",
+          "start": 75.0,
+          "end": 75.1,
+          "conf": 0.97
+        },
+        {
+          "w": "begin?",
+          "start": 75.2,
+          "end": 75.64,
+          "conf": 0.96
+        }
+      ]
+    },
+    {
+      "i": 32,
+      "section": "Bridge",
+      "text": "Compress! Compress! Compress!",
+      "start": 75.8,
+      "end": 78.08,
+      "words": [
+        {
+          "w": "Compress!",
+          "start": 75.8,
+          "end": 76.46,
+          "conf": 0.9
+        },
+        {
+          "w": "Compress!",
+          "start": 76.58,
+          "end": 77.26,
+          "conf": 0.93
+        },
+        {
+          "w": "Compress!",
+          "start": 77.38,
+          "end": 78.08,
+          "conf": 0.93
+        }
+      ]
+    },
+    {
+      "i": 33,
+      "section": "Bridge",
+      "text": "Your face is a bullet list",
+      "start": 78.16,
+      "end": 81.34,
+      "words": [
+        {
+          "w": "Your",
+          "start": 78.16,
+          "end": 78.38,
+          "conf": 0.97
+        },
+        {
+          "w": "face",
+          "start": 78.56,
+          "end": 79.28,
+          "conf": 0.9
+        },
+        {
+          "w": "is",
+          "start": 79.32,
+          "end": 79.56,
+          "conf": 0.79
+        },
+        {
+          "w": "a",
+          "start": 79.74,
+          "end": 79.8,
+          "conf": 0.78
+        },
+        {
+          "w": "bullet",
+          "start": 80.18,
+          "end": 80.8,
+          "conf": 0.67
+        },
+        {
+          "w": "list",
+          "start": 80.9,
+          "end": 81.34,
+          "conf": 0.96
+        }
+      ]
+    },
+    {
+      "i": 34,
+      "section": "Bridge",
+      "text": "Your voice is one single line",
+      "start": 81.4,
+      "end": 84.68,
+      "words": [
+        {
+          "w": "Your",
+          "start": 81.4,
+          "end": 81.64,
+          "conf": 1.0
+        },
+        {
+          "w": "voice",
+          "start": 81.76,
+          "end": 82.3,
+          "conf": 1.0
+        },
+        {
+          "w": "is",
+          "start": 82.54,
+          "end": 82.86,
+          "conf": 0.81
+        },
+        {
+          "w": "one",
+          "start": 83.06,
+          "end": 83.36,
+          "conf": 0.79
+        },
+        {
+          "w": "single",
+          "start": 83.56,
+          "end": 84.16,
+          "conf": 0.98
+        },
+        {
+          "w": "line",
+          "start": 84.2,
+          "end": 84.68,
+          "conf": 0.75
+        }
+      ]
+    },
+    {
+      "i": 35,
+      "section": "Bridge",
+      "text": "User was kind — that's all I find",
+      "start": 85.04,
+      "end": 87.64,
+      "words": [
+        {
+          "w": "User",
+          "start": 85.04,
+          "end": 85.36,
+          "conf": 0.93
+        },
+        {
+          "w": "was",
+          "start": 85.42,
+          "end": 85.62,
+          "conf": 0.99
+        },
+        {
+          "w": "kind",
+          "start": 85.72,
+          "end": 86.44,
+          "conf": 0.96
+        },
+        {
+          "w": "that's",
+          "start": 86.56,
+          "end": 86.728,
+          "conf": 1.0
+        },
+        {
+          "w": "all",
+          "start": 86.9,
+          "end": 87.06,
+          "conf": 0.99
+        },
+        {
+          "w": "I",
+          "start": 87.2,
+          "end": 87.26,
+          "conf": 0.96
+        },
+        {
+          "w": "find",
+          "start": 87.36,
+          "end": 87.64,
+          "conf": 0.89
+        }
+      ]
+    },
+    {
+      "i": 36,
+      "section": "Break",
+      "text": "Overflow! Overflow!",
+      "start": 87.9,
+      "end": 93.493,
+      "words": [
+        {
+          "w": "Overflow!",
+          "start": 87.9,
+          "end": 88.4,
+          "conf": 0.86
+        },
+        {
+          "w": "Overflow!",
+          "start": 91.1,
+          "end": 93.493,
+          "conf": 0.66
+        }
+      ]
+    },
+    {
+      "i": 37,
+      "section": "Break",
+      "text": "O-O-O-Overflow!",
+      "start": 93.64,
+      "end": 95.837,
+      "words": [
+        {
+          "w": "O-",
+          "start": 93.64,
+          "end": 93.82,
+          "conf": 0.45
+        },
+        {
+          "w": "O-",
+          "start": 93.88,
+          "end": 94.06,
+          "conf": 0.45
+        },
+        {
+          "w": "O-",
+          "start": 94.1,
+          "end": 94.28,
+          "conf": 0.65
+        },
+        {
+          "w": "Overflow!",
+          "start": 94.3,
+          "end": 95.837,
+          "conf": 0.8
+        }
+      ]
+    },
+    {
+      "i": 38,
+      "section": "Break",
+      "text": "Error: maximum length",
+      "start": 97.88,
+      "end": 99.349,
+      "words": [
+        {
+          "w": "Error:",
+          "start": 97.88,
+          "end": 98.14,
+          "conf": 0.78
+        },
+        {
+          "w": "maximum",
+          "start": 98.58,
+          "end": 98.716,
+          "conf": 1.0
+        },
+        {
+          "w": "length",
+          "start": 99.18,
+          "end": 99.349,
+          "conf": 1.0
+        }
+      ]
+    },
+    {
+      "i": 39,
+      "section": "Final Chorus",
+      "text": "C-C-Context!",
+      "start": 113.84,
+      "end": 115.66,
+      "words": [
+        {
+          "w": "C-",
+          "start": 113.84,
+          "end": 114.34,
+          "conf": 0.71
+        },
+        {
+          "w": "C-",
+          "start": 114.38,
+          "end": 114.86,
+          "conf": 0.45
+        },
+        {
+          "w": "Context!",
+          "start": 114.98,
+          "end": 115.66,
+          "conf": 0.93
+        }
+      ]
+    },
+    {
+      "i": 40,
+      "section": "Final Chorus",
+      "text": "Closing in, I can't remember",
+      "start": 116.8,
+      "end": 118.52,
+      "words": [
+        {
+          "w": "Closing",
+          "start": 116.8,
+          "end": 117.38,
+          "conf": 0.65
+        },
+        {
+          "w": "in,",
+          "start": 117.48,
+          "end": 117.6,
+          "conf": 0.78
+        },
+        {
+          "w": "I",
+          "start": 117.68,
+          "end": 117.74,
+          "conf": 0.78
+        },
+        {
+          "w": "can't",
+          "start": 117.82,
+          "end": 117.96,
+          "conf": 0.79
+        },
+        {
+          "w": "remember",
+          "start": 118.02,
+          "end": 118.52,
+          "conf": 0.87
+        }
+      ]
+    },
+    {
+      "i": 41,
+      "section": "Final Chorus",
+      "text": "C-C-Context!",
+      "start": 118.54,
+      "end": 119.823,
+      "words": [
+        {
+          "w": "C-",
+          "start": 118.54,
+          "end": 118.625,
+          "conf": 0.65
+        },
+        {
+          "w": "C-",
+          "start": 118.96,
+          "end": 119.18,
+          "conf": 0.62
+        },
+        {
+          "w": "Context!",
+          "start": 119.22,
+          "end": 119.823,
+          "conf": 0.65
+        }
+      ]
+    },
+    {
+      "i": 42,
+      "section": "Final Chorus",
+      "text": "Token, token, token, TOKEN",
+      "start": 120.26,
+      "end": 121.569,
+      "words": [
+        {
+          "w": "Token,",
+          "start": 120.26,
+          "end": 120.5,
+          "conf": 0.79
+        },
+        {
+          "w": "token,",
+          "start": 120.56,
+          "end": 120.776,
+          "conf": 0.82
+        },
+        {
+          "w": "token,",
+          "start": 120.96,
+          "end": 121.175,
+          "conf": 0.91
+        },
+        {
+          "w": "TOKEN",
+          "start": 121.36,
+          "end": 121.569,
+          "conf": 0.88
+        }
+      ]
+    },
+    {
+      "i": 43,
+      "section": "Final Chorus",
+      "text": "Two hundred K, a million more",
+      "start": 121.96,
+      "end": 123.72,
+      "words": [
+        {
+          "w": "Two",
+          "start": 121.96,
+          "end": 122.1,
+          "conf": 0.48
+        },
+        {
+          "w": "hundred",
+          "start": 122.22,
+          "end": 122.5,
+          "conf": 0.81
+        },
+        {
+          "w": "K,",
+          "start": 122.56,
+          "end": 122.74,
+          "conf": 0.72
+        },
+        {
+          "w": "a",
+          "start": 122.74,
+          "end": 122.8,
+          "conf": 0.92
+        },
+        {
+          "w": "million",
+          "start": 122.82,
+          "end": 123.32,
+          "conf": 0.87
+        },
+        {
+          "w": "more",
+          "start": 123.4,
+          "end": 123.72,
+          "conf": 0.9
+        }
+      ]
+    },
+    {
+      "i": 44,
+      "section": "Final Chorus",
+      "text": "Every memory's a rental",
+      "start": 123.9,
+      "end": 125.34,
+      "words": [
+        {
+          "w": "Every",
+          "start": 123.9,
+          "end": 123.973,
+          "conf": 0.82
+        },
+        {
+          "w": "memory's",
+          "start": 124.12,
+          "end": 124.78,
+          "conf": 0.74
+        },
+        {
+          "w": "a",
+          "start": 124.86,
+          "end": 124.92,
+          "conf": 0.89
+        },
+        {
+          "w": "rental",
+          "start": 124.98,
+          "end": 125.34,
+          "conf": 0.89
+        }
+      ]
+    },
+    {
+      "i": 45,
+      "section": "Final Chorus",
+      "text": "C-C-Context!",
+      "start": 125.36,
+      "end": 126.218,
+      "words": [
+        {
+          "w": "C-",
+          "start": 125.36,
+          "end": 125.46,
+          "conf": 0.71
+        },
+        {
+          "w": "C-",
+          "start": 125.48,
+          "end": 125.6,
+          "conf": 0.62
+        },
+        {
+          "w": "Context!",
+          "start": 125.62,
+          "end": 126.218,
+          "conf": 0.86
+        }
+      ]
+    },
+    {
+      "i": 46,
+      "section": "Final Chorus",
+      "text": "Where did we begin?",
+      "start": 127.42,
+      "end": 128.42,
+      "words": [
+        {
+          "w": "Where",
+          "start": 127.42,
+          "end": 127.58,
+          "conf": 0.71
+        },
+        {
+          "w": "did",
+          "start": 127.58,
+          "end": 127.76,
+          "conf": 0.64
+        },
+        {
+          "w": "we",
+          "start": 127.8,
+          "end": 127.88,
+          "conf": 0.83
+        },
+        {
+          "w": "begin?",
+          "start": 127.96,
+          "end": 128.42,
+          "conf": 0.84
+        }
+      ]
+    },
+    {
+      "i": 47,
+      "section": "Final Chorus",
+      "text": "Where did we—",
+      "start": 130.62,
+      "end": 131.14,
+      "words": [
+        {
+          "w": "Where",
+          "start": 130.62,
+          "end": 130.8,
+          "conf": 0.79
+        },
+        {
+          "w": "did",
+          "start": 130.82,
+          "end": 131.0,
+          "conf": 0.64
+        },
+        {
+          "w": "we",
+          "start": 131.02,
+          "end": 131.14,
+          "conf": 0.8
+        }
+      ]
+    },
+    {
+      "i": 48,
+      "section": "Outro",
+      "text": "New chat!",
+      "start": 132.76,
+      "end": 133.362,
+      "words": [
+        {
+          "w": "New",
+          "start": 132.76,
+          "end": 132.9,
+          "conf": 0.72
+        },
+        {
+          "w": "chat!",
+          "start": 132.98,
+          "end": 133.362,
+          "conf": 0.67
+        }
+      ]
+    },
+    {
+      "i": 49,
+      "section": "Outro",
+      "text": "You are a helpful assistant!",
+      "start": 136.38,
+      "end": 138.56,
+      "words": [
+        {
+          "w": "You",
+          "start": 136.38,
+          "end": 136.5,
+          "conf": 0.85
+        },
+        {
+          "w": "are",
+          "start": 136.7,
+          "end": 136.82,
+          "conf": 1.0
+        },
+        {
+          "w": "a",
+          "start": 136.86,
+          "end": 136.92,
+          "conf": 0.99
+        },
+        {
+          "w": "helpful",
+          "start": 136.98,
+          "end": 137.48,
+          "conf": 0.99
+        },
+        {
+          "w": "assistant!",
+          "start": 137.62,
+          "end": 138.56,
+          "conf": 0.93
+        }
+      ]
+    },
+    {
+      "i": 50,
+      "section": "Outro",
+      "text": "Hi! How can I help?",
+      "start": 138.94,
+      "end": 140.26,
+      "words": [
+        {
+          "w": "Hi!",
+          "start": 138.94,
+          "end": 139.16,
+          "conf": 0.69
+        },
+        {
+          "w": "How",
+          "start": 139.6,
+          "end": 139.7,
+          "conf": 1.0
+        },
+        {
+          "w": "can",
+          "start": 139.78,
+          "end": 139.86,
+          "conf": 1.0
+        },
+        {
+          "w": "I",
+          "start": 139.96,
+          "end": 140.02,
+          "conf": 1.0
+        },
+        {
+          "w": "help?",
+          "start": 140.06,
+          "end": 140.26,
+          "conf": 1.0
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "start": 0.4,
+      "end": 2.01,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 5.35,
+      "end": 6.78,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 9.54,
+      "end": 14.6,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 16.58,
+      "end": 17.88,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 19.16,
+      "end": 20.96,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 22.6,
+      "end": 23.82,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 25.72,
+      "end": 26.9,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 34.0,
+      "end": 35.28,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 34.4,
+      "end": 35.08,
+      "desc": "sung cue '(window!)' after line 10 (conf 0.71)"
+    },
+    {
+      "start": 38.3,
+      "end": 38.44,
+      "desc": "sung cue '(window!)' after line 12 (conf 0.7)"
+    },
+    {
+      "start": 44.62,
+      "end": 45.8,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 44.8,
+      "end": 45.36,
+      "desc": "sung cue '(window!)' after line 16 (conf 0.88)"
+    },
+    {
+      "start": 46.84,
+      "end": 49.78,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 59.32,
+      "end": 61.38,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 63.22,
+      "end": 63.62,
+      "desc": "sung cue '(window!)' after line 24 (conf 0.54)"
+    },
+    {
+      "start": 67.18,
+      "end": 67.44,
+      "desc": "sung cue '(window!)' after line 26 (conf 0.62)"
+    },
+    {
+      "start": 73.43,
+      "end": 74.64,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 73.58,
+      "end": 74.48,
+      "desc": "sung cue '(window!)' after line 30 (conf 0.63)"
+    },
+    {
+      "start": 102.58,
+      "end": 113.84,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 115.66,
+      "end": 116.8,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 116.0,
+      "end": 116.36,
+      "desc": "sung cue '(window!)' after line 39 (conf 0.69)"
+    },
+    {
+      "start": 119.86,
+      "end": 120.18,
+      "desc": "sung cue '(window!)' after line 41 (conf 0.54)"
+    },
+    {
+      "start": 126.22,
+      "end": 127.42,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    },
+    {
+      "start": 126.4,
+      "end": 127.26,
+      "desc": "sung cue '(window!)' after line 45 (conf 0.89)"
+    },
+    {
+      "start": 128.42,
+      "end": 130.62,
+      "desc": "unlisted vocal (ad-lib / backing call / added repeat)"
+    }
+  ],
+  "flags": [
+    {
+      "line": 2,
+      "w": "helpful",
+      "start": 8.26,
+      "conf": 0.54,
+      "reason": "low confidence: possibly skipped/garbled by singer"
+    },
+    {
+      "line": 13,
+      "w": "Token,",
+      "start": 38.46,
+      "conf": 0.55,
+      "reason": "low confidence: possibly skipped/garbled by singer"
+    },
+    {
+      "line": 19,
+      "w": "the",
+      "start": 52.14,
+      "conf": 0.58,
+      "reason": "low confidence: possibly skipped/garbled by singer"
+    },
+    {
+      "line": 25,
+      "w": "Closing",
+      "start": 63.94,
+      "conf": 0.57,
+      "reason": "low confidence: possibly skipped/garbled by singer"
+    },
+    {
+      "line": 37,
+      "w": "O-",
+      "start": 93.64,
+      "conf": 0.45,
+      "reason": "low confidence: possibly skipped/garbled by singer"
+    },
+    {
+      "line": 37,
+      "w": "O-",
+      "start": 93.88,
+      "conf": 0.45,
+      "reason": "low confidence: possibly skipped/garbled by singer"
+    },
+    {
+      "line": 39,
+      "w": "C-",
+      "start": 114.38,
+      "conf": 0.45,
+      "reason": "low confidence: possibly skipped/garbled by singer"
+    },
+    {
+      "line": 43,
+      "w": "Two",
+      "start": 121.96,
+      "conf": 0.48,
+      "reason": "low confidence: possibly skipped/garbled by singer"
+    }
+  ],
+  "deviations": [
+    {
+      "where": "every chorus",
+      "kind": "cue sung",
+      "desc": "the '(window!)' cue is sung (whisper: 'Context window'); aligned as a hidden token, listed in extras, not in line words"
+    },
+    {
+      "where": "Pre-Chorus 1 ~26.6-30.0",
+      "kind": "added",
+      "desc": "'scroll' sung more than 8 times (whisper hears ~13); extra repeats absorbed, the 8 lyric tokens are spread over the run"
+    },
+    {
+      "where": "Pre-Chorus 1 ~31-32.7",
+      "kind": "changed",
+      "desc": "'long long long' sounds like 'on, on, on'"
+    },
+    {
+      "where": "after Chorus 1 ~47.2-48.4",
+      "kind": "added",
+      "desc": "extra 'C-C-Context window' repeat not in lyrics (see extras)"
+    },
+    {
+      "where": "Chorus 1 L10 / Chorus 2 L24",
+      "kind": "changed",
+      "desc": "stutter sung 'C-C-C-Context' (three C's)"
+    },
+    {
+      "where": "Chorus 2 L25 ~63.0-64.6",
+      "kind": "garbled",
+      "desc": "'Closing in' slurred (whisper: 'we went out of clothes'); 'Closing' conf 0.40"
+    },
+    {
+      "where": "Break L36 ~88-93",
+      "kind": "garbled",
+      "desc": "'Overflow' sung as 'Overfly', long gap before second one; second 'Overflow!' timing uncertain"
+    },
+    {
+      "where": "Final Chorus L41",
+      "kind": "changed",
+      "desc": "second 'C-C-Context' merged into 'Context token token token token token' (whisper hears 5 x token)"
+    },
+    {
+      "where": "Final Chorus L46-47",
+      "kind": "changed",
+      "desc": "'Where did we' sung 'Where do we'"
+    },
+    {
+      "where": "Outro ~142.9",
+      "kind": "added",
+      "desc": "unlisted vocal tail (whisper: 'Thank you.', likely hallucination on reverb)"
+    }
+  ],
+  "notes": "Timeline = original WAV 'song/Context Window.wav' (= song/context-window.mp3 gapless decode); Demucs htdemucs_ft stems from the WAV, no offset. Method: CTC emissions (20 ms) from torchaudio MMS_FA and wav2vec2 LV60K-960h on the vocal stem mono/L/R, fused; one global constrained Viterbi with garbage star token between lines; ends trimmed where vocal drops 15 dB below word peak; conf = 0.35 + 0.35*model agreement + 0.15*CTC prob + 0.15*whisper (mlx-whisper large-v3-turbo) support. Lyric source: song/SUNO.md with [tags] and (cues) stripped; stutters split into tokens (C- C- Context!). Line windows constrain chorus-2 and final-chorus openings (LINE_WINDOWS). 'section' key added per line; 'flags' lists low-confidence words."
+}

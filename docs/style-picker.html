@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8">
+<title>Style Picker</title>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;800;900&family=Space+Grotesk:wght@400;700&family=Inter+Tight:wght@400;800;900&family=Archivo:wdth,wght@62..125,400;62..125,900&family=IBM+Plex+Mono:wght@400;600&family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0A0A0B;--bone:#EEE9DF;--sig:#FF2E88;--font:'Unbounded';}
+*{box-sizing:border-box;margin:0}
+body{background:#050506;color:var(--bone);font-family:'IBM Plex Mono',monospace;padding:16px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;align-items:center;font-size:12px}
+.bar b{width:70px;opacity:.6;font-weight:400}
+button{background:#18181b;color:var(--bone);border:1px solid #333;padding:6px 10px;font:inherit;cursor:pointer;border-radius:3px}
+button.on{border-color:var(--sig);color:var(--sig)}
+.sw{display:inline-block;width:10px;height:10px;margin-right:6px;vertical-align:-1px}
+.stage{position:relative;aspect-ratio:16/9;background:var(--bg);overflow:hidden;margin-top:12px;max-width:1100px}
+.scene{position:absolute;inset:0;display:none;padding:5%}
+.scene.show{display:block}
+.hook{background:var(--sig);color:var(--bg);display:none;align-items:center;justify-content:center;flex-direction:column}
+.hook.show{display:flex}
+.big{font-family:var(--font),sans-serif;font-weight:900;font-size:11vw;line-height:.9;letter-spacing:-.02em;text-transform:uppercase}
+.max{font-size:min(11vw,120px)}
+.sub{font-family:var(--font),sans-serif;font-weight:800;font-size:min(3vw,32px);margin-top:2%}
+.lyric{position:absolute;left:5%;bottom:12%;font-family:var(--font),sans-serif;font-weight:800;font-size:min(4.4vw,52px);line-height:1.05}
+.lyric span{transition:color .08s}
+.lyric span.hot{color:var(--sig)}
+.chat{font-size:min(1.6vw,17px);line-height:1.7;opacity:.85}
+.chat .u{color:var(--sig)}
+.chat s{opacity:.4}
+.counter{position:absolute;right:5%;top:6%;text-align:right}
+.counter .n{font-family:var(--font),sans-serif;font-weight:900;font-size:min(6vw,68px);color:var(--sig);font-variant-numeric:tabular-nums}
+.counter .l{font-size:12px;opacity:.6;letter-spacing:.2em}
+.oracle{position:absolute;right:5%;top:30%;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:min(3vw,34px);opacity:.8}
+.grain{position:absolute;inset:0;pointer-events:none;opacity:.08;mix-blend-mode:screen;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.glow{text-shadow:0 0 18px color-mix(in srgb,var(--sig) 60%,transparent)}
+p.note{font-size:12px;opacity:.55;margin-top:10px;max-width:1100px}
+</style></head><body>
+<div class="bar"><b>信号色</b>
+ <button data-c="#FF2E88" class="on"><i class="sw" style="background:#FF2E88"></i>荧光洋红</button>
+ <button data-c="#C6FF1A"><i class="sw" style="background:#C6FF1A"></i>酸绿</button>
+ <button data-c="#00E5FF"><i class="sw" style="background:#00E5FF"></i>电光青</button>
+ <button data-c="#FF4D12"><i class="sw" style="background:#FF4D12"></i>原作橙（对照）</button>
+</div>
+<div class="bar"><b>歌词字体</b>
+ <button data-f="Unbounded" class="on">Unbounded</button>
+ <button data-f="Space Grotesk">Space Grotesk</button>
+ <button data-f="Inter Tight">Inter Tight</button>
+ <button data-f="Archivo">Archivo（原作对照）</button>
+</div>
+
+<div class="stage" id="stage">
+  <div class="scene show" id="s1">
+    <div class="chat">
+      <div>&gt; system: You are a helpful assistant.</div>
+      <div class="u">&gt; user: my name is Mo, I like 150bpm</div>
+      <div><s>&gt; assistant: Nice to meet you, Mo!</s></div>
+      <div><s>&gt; user: remember this for later</s></div>
+      <div>&gt; [truncated 18,402 tokens]</div>
+    </div>
+    <div class="counter"><div class="n" id="n">0</div><div class="l">TOKENS / 200,000</div></div>
+    <div class="lyric glow" id="ly"></div>
+    <div class="oracle">every memory a rental</div>
+  </div>
+  <div class="scene hook" id="s2"><div class="big max" id="hk">C-</div><div class="sub">(window!)</div></div>
+  <div class="grain"></div>
+</div>
+<p class="note">循环演示：界面段落，歌词逐词变成信号色，token 计数上涨，然后切到满屏信号色的 hook，按 150 bpm 口吃切换。点上面的按钮实时换色和换字体。</p>
+
+<script>
+const root=document.documentElement;
+document.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{root.style.setProperty('--sig',b.dataset.c);sel(b,'[data-c]')});
+document.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{root.style.setProperty('--font',`'${b.dataset.f}'`);sel(b,'[data-f]')});
+function sel(b,q){document.querySelectorAll(q).forEach(x=>x.classList.remove('on'));b.classList.add('on')}
+const words="Two hundred K, a million more".split(' ');
+const ly=document.getElementById('ly');
+ly.innerHTML=words.map(w=>`<span>${w}</span>`).join(' ');
+const spans=[...ly.children],beat=60/150,s1=document.getElementById('s1'),s2=document.getElementById('s2'),hk=document.getElementById('hk'),n=document.getElementById('n');
+const stut=['C-','C-C-','CONTEXT!','CONTEXT!'];
+const t0=performance.now();
+function frame(now){
+  const t=((now-t0)/1000)%(beat*16), b=t/beat;
+  const inHook=b>=10;
+  s1.classList.toggle('show',!inHook); s2.classList.toggle('show',inHook);
+  if(!inHook){
+    spans.forEach((s,i)=>s.classList.toggle('hot',b>=2+i));
+    const k=Math.min(1,b/10); n.textContent=Math.floor(k*k*1000000).toLocaleString('en-US');
+  }else{
+    const i=Math.min(3,Math.floor((b-10)*2));
+    hk.textContent=stut[i];
+    const pulse=1+0.06*Math.exp(-((b%0.5)*8));
+    hk.style.transform=`scale(${pulse})`;
+  }
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+</script>
+</body></html>
